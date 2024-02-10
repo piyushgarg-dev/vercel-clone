@@ -1,15 +1,17 @@
 # Vercel Clone
 
-YouTube Video Link:
+YouTube Video Link: https://youtu.be/0A_JpLYG7hM
+
+Whiteboard Diagram: https://app.eraser.io/workspace/0f8XnDF61iGcatypPqIR?origin=share
 
 ### Prerequisite
 
-- Node.JS: https://youtube.com/playlist?list=PLinedj3B30sDby4Al-i13hQJGQoRQDfPo&si=5gaDmQ_mzuBHvAsg
-- Redis: https://youtu.be/Vx2zPMPvmug?si=Z_XT6BMNgkgwnX49
+- Node.JS: [Master NodeJS Playlist](https://youtube.com/playlist?list=PLinedj3B30sDby4Al-i13hQJGQoRQDfPo&si=5gaDmQ_mzuBHvAsg)
+- Redis: [Redis Crash Course](https://youtu.be/Vx2zPMPvmug?si=Z_XT6BMNgkgwnX49)
 - Learn Docker:
-  - Part 1: https://youtu.be/31k6AtW-b3Y?si=FIPffAKieiBGgo5c
-  - Part 2: https://youtu.be/xPT8mXa-sJg?si=-6z_HkJZXsvrvSpO
-- Docker with AWS ECS and ECR: https://youtu.be/AiiFbsAlLaI?si=dKrFZFr7fLBXKSab
+  - Part 1: [Docker in One Shot - Part 1](https://youtu.be/31k6AtW-b3Y?si=FIPffAKieiBGgo5c)
+  - Part 2: [Docker in One Shot - Part 2](https://youtu.be/xPT8mXa-sJg?si=-6z_HkJZXsvrvSpO)
+- Docker with AWS ECS and ECR: [Real World Docker Deployments with AWS](https://youtu.be/AiiFbsAlLaI?si=dKrFZFr7fLBXKSab)
 
 ### Setup Guide
 
