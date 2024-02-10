@@ -2,6 +2,15 @@
 
 YouTube Video Link:
 
+### Prerequisite
+
+- Node.JS: https://youtube.com/playlist?list=PLinedj3B30sDby4Al-i13hQJGQoRQDfPo&si=5gaDmQ_mzuBHvAsg
+- Redis: https://youtu.be/Vx2zPMPvmug?si=Z_XT6BMNgkgwnX49
+- Learn Docker:
+  - Part 1: https://youtu.be/31k6AtW-b3Y?si=FIPffAKieiBGgo5c
+  - Part 2: https://youtu.be/xPT8mXa-sJg?si=-6z_HkJZXsvrvSpO
+- Docker with AWS ECS and ECR: https://youtu.be/AiiFbsAlLaI?si=dKrFZFr7fLBXKSab
+
 ### Setup Guide
 
 This Project contains following services and folders:
