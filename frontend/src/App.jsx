@@ -1,7 +1,6 @@
 import styled from "@emotion/styled";
 import Header from "./components/Header";
 import Home from "./View/Home";
-import Logs from "./View/Logs";
 import Submission from "./View/Submission";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -30,7 +29,6 @@ function App() {
         <div className="body">
           <Routes>
             <Route path="*" element={<Home />} />
-            <Route path="/logs" element={<Logs />} />
             <Route path="/submission" element={<Submission />} />
           </Routes>
         </div>

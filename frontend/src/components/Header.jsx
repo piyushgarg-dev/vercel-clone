@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styled from "@emotion/styled";
 import { Link, NavLink } from "react-router-dom";
 
@@ -109,11 +109,6 @@ const Header = () => {
         <div />
       </HamburgerIcon>
       <Menu>
-        <MenuItem>
-          <ActiveLink to="/logs" onClick={() => setIsMenuOpen(false)}>
-            Logs
-          </ActiveLink>
-        </MenuItem>
         <MenuItem>
           <ActiveLink to="/submission" onClick={() => setIsMenuOpen(false)}>
             Submission

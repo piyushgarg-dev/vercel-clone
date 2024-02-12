@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 
 function Input({ onChange, value, placeholder }) {
   const Styled = useMemo(
@@ -10,6 +10,7 @@ function Input({ onChange, value, placeholder }) {
       font-size: 1em;
       font-weight: 500;
       outline: none;
+      width: 300px;
     `,
     []
   );
