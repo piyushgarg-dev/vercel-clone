@@ -9,7 +9,7 @@ frontend/ .eslintrc.cjs index.html package.json
 public/ src/ App.jsx 
 components/ Button.jsx ErrorBoundary.jsx Header.jsx Input.jsx Welcome.jsx index.css main.jsx 
 service/ apiService.js 
-View/ Home.jsx Logs.jsx Submission.jsx vite.config.js
+View/ Home.jsx Submission.jsx
 
 
 ## Setup
@@ -34,3 +34,20 @@ The frontend project uses the following dependencies:
 - @emotion/react and @emotion/styled for styling components.
 
 For more information, refer to the `package.json` file in the `frontend` directory.
+
+## How to Use
+- Navigate to the Submission Page: The submission page is where you can submit your GitHub repository for deployment. You can navigate to the submission page by clicking on the "Submission" link in the header.
+
+- Enter your GitHub Repository Link: In the "GitHub Repo Link" field, enter the URL of the GitHub repository you want to deploy. The URL should be in the format https://github.com/username/repo.
+
+- Enter a Slug (Optional): In the "Slug" field, you can enter a slug for your project. This is optional. If you don't provide a slug, one will be generated for you.
+
+- Click "Deploy": Click the "Deploy" button to submit your repository for deployment. While your repository is being deployed, the button will display "In Progress".
+
+- View the Logs: After you've submitted your repository, you can view the logs for your deployment. The logs will automatically update as new logs are generated.
+
+- View Your Deployed Application: A preview URL will be displayed above the logs. You can click this URL to view your deployed application. (this may take few minutes)
+
+- Start a New Submission: To start a new submission, click the "New Submission" button. This will take you back to the submission page where you can submit a new repository for deployment.
+
+- Please note that this application is a clone of Vercel and is intended for educational purposes. It may not support all the features of Vercel.
