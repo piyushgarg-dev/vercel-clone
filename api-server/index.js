@@ -49,9 +49,11 @@ app.post('/project', async (req, res) => {
         return res.status(400).json({ status:"error", error: 'Please Enter Valid Git URL' });
     }
 
+     let projectSlug = slug;
+
     // Validate slug format
     if (slug && (!slugRegex.test(slug) || slug.includes(' '))) {
-        return res.status(400).json({ status:"error", error: 'Please Enter Valid Slug Format' });
+            projectSlug = generateSlug()
     }
 
     const projectSlug = slug;
