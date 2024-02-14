@@ -37,7 +37,26 @@ app.use(express.json())
 
 app.post('/project', async (req, res) => {
     const { gitURL, slug } = req.body
-    const projectSlug = slug ? slug : generateSlug()
+
+    // Regular expression to validate GitHub URL format
+    const githubUrlRegex = /^https?:\/\/github\.com\/[^\/]+\/[^\/]+$/;
+
+    // Regular expression to validate slug format (no spaces, alphanumeric characters)
+    const slugRegex = /^[a-zA-Z0-9-]+$/;
+
+    // Validate gitURL format
+    if (!urlRegex.test(gitURL)) {
+        return res.status(400).json({ status:"error", error: 'Please Enter Valid Git URL' });
+    }
+
+     let projectSlug = slug;
+
+    // Validate slug format
+    if (slug && (!slugRegex.test(slug) || slug.includes(' '))) {
+            projectSlug = generateSlug()
+    }
+
+    const projectSlug = slug;
 
     // Spin the container
     const command = new RunTaskCommand({
